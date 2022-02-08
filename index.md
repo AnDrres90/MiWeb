@@ -1,8 +1,6 @@
 ## Welcome to AnDrres Pages
 
-You can use the [editor on GitHub](https://github.com/AnDrres90/MiWeb/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Hello, is the my first web pages: esto solo es una practica de modificacion de la pagina web 
 
 ### Markdown
 
