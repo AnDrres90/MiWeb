@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Practica formulario</title>
+
+         <style>
+             body{
+                 background-color: lightblue;
+                 margin: 100px;
+             }
+
+             h1{
+                 font-family: Arial, Helvetica, sans-serif;
+                 color: darkslategrey;
+                 font-size: 50px;
+             }
+
+             p{
+                 font-family: Arial, Helvetica, sans-serif;
+                 font-size: 20px;
+                 text-align: center;
+             }
+            .contenido{
+                 font-family: Arial, Helvetica, sans-serif;
+                 color: black;
+                 font-size: large;
+             }
+         </style>
+    </head>
+    <body>
+       <p style="text-align: right;"><a href="./index.html" target="_self"
+         title="Home"><button>Home</button></a></p>
+
+         <h1 style="text-align: center;">Mi primer formulario</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> 
+                Accusantium quisquam id enim obcaecati quo quasi ipsam <br>
+                eius optio praesentium doloremque, atque nobis magni minus <br>
+                fuga eos quos possimus sapiente dolorum.</p>
+            <form action="">
+                <fieldset>
+                    <legend class="contenido">Informacion personal</legend>
+                    <label for="name" class="contenido"> Por favor ingresa tus nombres:</label>
+                    <input type="text" id="name" name="name" placeholder="Nombre">
+                    <label for="lastname" class="contenido"> Por favor ingresa tus apellidos:</label>
+                    <input type="text" id="lastname" name="lastname" placeholder="Apellido"> <br><br>
+                    <label for="id" class="contenido"> Seleccione el tipo de documento:</label> <br>
+                    <select name="id" id="id">
+                        <option value="identidad">Tarjeta de identidad</option>
+                        <option value="registro">Registro civil</option>
+                        <option value="CC" selected>Cedula de ciudadania</option>
+                        <option value="CE">cedula de extrangero</option>
+                    </select> <br><br>
+                    <label for="num_id" class="contenido">Numero de identificacion:</label>
+                    <input type="text" id="num_id" name="num_id" placeholder="Identificacion"> <br><br>
+                    <label for="nacimiento" class="contenido">Fecha de nacimiento:</label> <br>
+                    <input type="date" id="nacimiento" name="nacimiento"> <br><br>
+                    <label for="edad" class="contenido">Cual es tu edad:</label>
+                    <input type="text" id="edad" name="edad">
+
+                </fieldset>
+<br><br>
+                <fieldset>
+                    <legend class="contenido">Cuestionario</legend>
+                <ol>
+                    <li>
+                    <label for="jornada" class="contenido">(Seleccione una sola opcion) En que jornada estudias: </label> <br><br>
+                    <input type="radio" id="mañana" name="mañana" value="mañana">
+                    <label for="mañana" class="contenido">Mañana</label>
+                    <input type="radio" id="tarde" name="tarde" value="tarde">
+                    <label for="tarde" class="contenido">Tarde</label>
+                    <input type="radio" id="noche" name="noche" value="noche">
+                    <label for="noche" class="contenido">Noche</label> <br><br>
+                    </li>
+                    <li>
+                    <label for="competencias" class="contenido">(Seleccione multiples respuestas) Indique las competecias que ve en el trimestre</label> <br><br>
+                    <input type="checkbox" id="uml" name="uml">
+                    <label for="uml" class="contenido">Diagramas UML</label> <br>
+                    <input type="checkbox" id="web" name="web">
+                    <label for="web" class="contenido">Desarrollo web</label> <br>
+                    <input type="checkbox" id="phyton" name="python">
+                    <label for="python" class="contenido">Programacion python</label> <br>
+                    <input type="checkbox" id="algo" name="algo">
+                    <label for="algo" class="contenido">Algoritmos</label>
+                    </li>
+                </ol>
+                </fieldset>
+<br><br>
+                <fieldset>
+                    <legend class="contenido">Cuenta</legend>
+                    <label for="user" class="contenido">Ingrese su usuario:</label>
+                    <input type="text" id="user" name="user" placeholder="Username" pattern="[a-z]{5}" maxlength="5"> <br>
+                    <label for="gmail" class="contenido"> Ingresa tu correo:</label>
+                    <input type="email" name="gmail" id="gmail" placeholder="correo@gmail.com"> <br>
+                    <label for="pass">Ingresa tu contraseña: </label>
+                    <input type="password" id="pass" name="pass" placeholder="password" pattern="[0-9]{5}" maxlength="5"> <br>
+                    <label for="photo" class="contenido">Fotografia:</label>
+                    <input type="file">
+                </fieldset>
+                <input type="submit">
+                <input type="reset">
+            </form>
+
+        <br>
+            <br>
+                <br>
+                    <br>
+                        <br>
+                            <br>
+                                <br>
+                                    <br>
+                                        <br>
+                                            <br>
+                                                <br>
+                                                    <br>
+                                                        <br>
+                                                            <br>
+                                                                <br>  
+                                                                    <br>    
+                                                                        <br>
+                                                                            <br>
+                                                                                <br>
+                                                                                    <br>
+                                                                                        <br>
+                                                                                            <br>
+                                                                                                <br>    
+                                                                                                    <br>
+                                                                                                        <br>
+        <h1 style="text-align: center;">Formulario practica</h1>
+
+        <form action="./div.html" autocomplete="on">
+            <fieldset>
+                <legend>TEXT</legend>
+            <h2>Esto es la practica para un formulario</h2>
+            <label for="name">Insert your user-name:</label>
+            <input type="text" id="name" name="name" size="20px" placeholder="write your username"> <br><br>
+            <label for="pswd">Insert your password:</label>
+            <input type="password" id="pswd" name="pswd" size="21px" placeholder="write your password"> <br><br>
+            <input type="submit" value="enviar">
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend>CHECKBOX</legend>
+            <input type="checkbox" id="vehiculo1" name="vehiculo1" value="Bike">
+            <label for="vehiculo1"> I have a Bike</label> <br>
+            <input type="checkbox" id="vehiculo2" name="vehiculo2" value="Car">
+            <label for="vehiculo2"> I have a Car</label> <br><br>
+            </fieldset>
+            <br><br>
+            <fieldset>
+            <legend>SELECT</legend>
+            <label for="cars">Choose a car</label>
+            <select name="cars" id="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="mazda">Mazda</option>
+                <option value="fiat">Fiat</option>
+            </select>
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend>COLOR</legend>
+            <label for="favcolor">Select your favorite color:</label>
+            <input type="color" id="favcolor" name="favcolor" value="#00000"> <br>
+            <input type="submit" value="enviar">
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend>DATE</legend>
+                <label for="mycumple">Fecha de nacimiento:</label>
+                <input type="date" id="mycumple" name="mycumple">
+            </fieldset>
+        </form>
+    </body>
+</html>
