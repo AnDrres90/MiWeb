@@ -1,0 +1,38 @@
+body{
+    background-color: darkturquoise;
+    margin: 80px;
+}
+h1,h2,h3{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin-left: 100px;
+}
+div{
+    background-color: cornflowerblue;
+    opacity: 0.6; 
+    border-radius: 15px;
+    border: 5px groove white;
+}
+.boxExample{
+    text-align: left;
+    color: black;
+    border: solid 5px red;
+    padding: 80px;
+    margin: 80px 10px 50px 40%;
+    outline: green 15px solid;
+}
+.boxTwo{
+    background-color: lightcoral;
+    margin: 20%;
+    color: black;
+    border-right: 5px solid red;
+    width: 800px;
+    height: 200px;
+
+}
